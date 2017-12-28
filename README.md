@@ -26,7 +26,9 @@ In this project,lane lines will be marked in form of red lines as shown in Figur
 </div>
 <div align = center>Figure 1.raw pictures(left);lane lines marked(right)</div>
 <div>
+<center>
 <img src="source/algorithmroutine.png" alt="Combined Image" align="middle"/>
+</center>
 </div>
 <div align = center>Figure 2.Algorithm routine</div>
 
@@ -53,10 +55,6 @@ import math
 ```python
 os.listdir("test_images/")
 ```
-
-
-
-
     ['challenge1.jpg',
      'whiteCarLaneSwitch.jpg',
      'solidWhiteCurve.jpg',
@@ -69,11 +67,8 @@ os.listdir("test_images/")
      'solidYellowLeft1.jpg',
      'solidYellowCurve.jpg',
      'solidYellowLeft.jpg']
-
-
-
+     
 ## Read in an Image
-
 
 ```python
 #reading in an image
@@ -86,15 +81,7 @@ plt.imshow(image)
 ```
 
     This image is: <class 'numpy.ndarray'> with dimensions: (540, 960, 3)
-
-
-
-
-
     <matplotlib.image.AxesImage at 0x7f111dff9048>
-
-
-
 
 ![png](source/output_6_2.png)
 
