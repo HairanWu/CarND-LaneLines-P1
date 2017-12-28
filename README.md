@@ -30,6 +30,75 @@ In this project,lane lines will be marked in form of red lines as shown in Figur
 </div>
 <div align = center>Figure 2.Algorithm routine</div>
 
+**Create** carnd-term1.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
+```
+conda env create -f environment.yml
+```
+
+*Note*: Some Mac users have reported issues installing TensorFlow using this method. The cause is unknown but seems to be related to `pip`. For the time being, we recommend opening environment.yml in a text editor and swapping
+```yaml
+    - tensorflow==0.12.1
+```
+with
+```yaml
+    - https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py3-none-any.whl
+```
+
+**Verify** that the carnd-term1 environment was created in your environments:
+
+```sh
+conda info --envs
+```
+
+**Cleanup** downloaded libraries (remove tarballs, zip files, etc):
+
+```sh
+conda clean -tp
+```
+
+### Uninstalling 
+
+To uninstall the environment:
+
+```sh
+conda env remove -n carnd-term1
+```
+
+---
+
+## GPU Installation
+
+Prior to installing tensorflow-gpu for Ubuntu or Windows as part of the Anaconda environment for Nvidia GPUs, install the appropriate versions of CUDA Toolkit and cuDNN, along with the necessary Nvidia drivers. See Ubuntu instructions [here](https://www.tensorflow.org/install/install_linux) and Windows instructions [here](https://www.tensorflow.org/install/install_linux).
+
+When creating the environment, at the **Create** step above, change the command to:
+```
+conda env create -f environment.yml
+```
+Otherwise, follow the same steps as above.
+
+---
+
+## Using Anaconda
+
+Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
+
+**Activate** the `carnd-term1` environment:
+
+### OS X and Linux
+```sh
+$ source activate carnd-term1
+```
+### Windows
+Depending on shell either:
+```sh
+$ source activate carnd-term1
+```
+or
+
+```sh
+$ activate carnd-term1
+```
+
 ## Import Packages
 
 
