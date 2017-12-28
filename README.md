@@ -32,6 +32,7 @@ In this project,lane lines will be marked in form of red lines as shown in Figur
 
 ## Project Enviroment Setup
 Refer to https://github.com/udacity/CarND-Term1-Starter-Kit.
+
 **Create** carnd-term1.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
 ```
 conda env create -f environment.yml
