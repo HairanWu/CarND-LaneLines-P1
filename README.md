@@ -7,7 +7,9 @@ The following tools are used:
 - opencv
 - python
 
-Traditional methodology of computer version compared with deep learning will be applyed in this project.Those following techniques are used:
+Traditional methodology of computer version compared with deep learning will be applyed in this project.
+
+Those following techniques are used:
 
 - Color segmentation through RGB,HSV,HSL
 - noise reduction by Morphology Operation
