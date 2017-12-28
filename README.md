@@ -20,11 +20,10 @@ Traditional methodology of computer version compared with deep learning will be 
 When we drive, we use our eyes to decide where to go. The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle. Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.
 
 In this project,lane lines will be marked in form of red lines as shown in Figure1.
-
-<img src="examples/laneLines_thirdPass_raw.jpg" width="480" alt="Combined Image" align="left"/>
-    
-<img src="examples/laneLines_thirdPass.jpg" width="480" alt="Combined Image" align="right"/>
-
+<div>
+<img src="examples/laneLines_thirdPass_raw.jpg" width="320" alt="Combined Image" align="left"/> 
+<img src="examples/laneLines_thirdPass.jpg" width="320" alt="Combined Image" align="right"/>
+</div>
 <div align = center>Figure 1.raw pictures(left);lane lines marked(right)</div>
 
 ![image.png](attachment:image.png)
