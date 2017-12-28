@@ -96,7 +96,7 @@ plt.imshow(image)
 
 
 
-![png](output_6_2.png)
+![png](source/output_6_2.png)
 
 
 ## Show all images for testing
@@ -129,7 +129,7 @@ show_images(test_images)
 ```
 
 
-![png](output_9_0.png)
+![png](source/output_9_0.png)
 
 
 ## Ideas for Lane Detection Pipeline
@@ -208,7 +208,7 @@ show_images(white_yellow_images)
 ```
 
 
-![png](output_14_0.png)
+![png](source/output_14_0.png)
 
 
 ## Morphology Operation
@@ -234,7 +234,7 @@ show_images(noisereduce_images)
 ```
 
 
-![png](output_17_0.png)
+![png](source/output_17_0.png)
 
 
 ## Canny edge extract
@@ -270,7 +270,7 @@ show_images(canny_images)
 ```
 
 
-![png](output_20_0.png)
+![png](source/output_20_0.png)
 
 
 ## Region of interest detection
@@ -338,7 +338,7 @@ show_images(region_images)
 ```
 
 
-![png](output_23_0.png)
+![png](source/output_23_0.png)
 
 
 ## Lane Line drawing
@@ -438,7 +438,7 @@ show_images(lane_images)
 ```
 
 
-![png](output_26_0.png)
+![png](source/output_26_0.png)
 
 
 ## Lane Line drawed into raw image
@@ -487,7 +487,7 @@ show_images(lanedraw_images)
 ```
 
 
-![png](output_29_0.png)
+![png](source/output_29_0.png)
 
 
 ## Lane Line detection on specied images
@@ -518,7 +518,7 @@ plt.imsave('test_images_output/challengetest.jpg',result,format="jpg")
 
 
 
-![png](output_31_1.png)
+![png](source/output_31_1.png)
 
 
 ## Test on Videos
