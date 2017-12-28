@@ -139,7 +139,8 @@ plt.imshow(image)
 
 ## Show all images for testing
 Typical pictures within three testing videos has been snapshoted.Challenge.mp4 video may be very diffult for us to identify color regions,more tricky pictures which belong to it have been included.
-show_images function is rerfered from https://github.com/naokishibuya/car-finding-lane-lines
+
+show_images function is improved from https://github.com/naokishibuya/car-finding-lane-lines
 
 ```python
 def show_images(images, cmap=None):
