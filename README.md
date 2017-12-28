@@ -59,7 +59,7 @@ To uninstall the environment:
 conda env remove -n carnd-term1
 ```
 
-## Using Anaconda
+### Using Anaconda
 
 Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
 
