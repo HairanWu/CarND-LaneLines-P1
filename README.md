@@ -26,7 +26,7 @@ In this project,lane lines will be marked in form of red lines as shown in Figur
 </div>
 <div align = center>Figure 1.raw pictures(left);lane lines marked(right)</div>
 
-![image.png](source/algorithmroutine.png)
+<img src="source/algorithmroutine.png" alt="Combined Image" align="right"/>
 
 <div align = center>Figure 2.Algorithm routine</div>
 
