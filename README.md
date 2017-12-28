@@ -31,7 +31,8 @@ In this project,lane lines will be marked in form of red lines as shown in Figur
 <div align = center>Figure 2.Algorithm routine</div>
 
 ## Project Enviroment Setup
-###Anaconda Environment
+### Anaconda Environment
+
 Refer to https://github.com/udacity/CarND-Term1-Starter-Kit.
 
 **Create** carnd-term1.  Running this command will create a new `conda` environment that is provisioned with all libraries you need to be successful in this program.
