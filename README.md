@@ -25,9 +25,8 @@ In this project,lane lines will be marked in form of red lines as shown in Figur
 <div>
 <img src="examples/laneLines_thirdPass_raw.jpg" width="420" alt="Combined Image" align="left"/> 
 <img src="examples/laneLines_thirdPass.jpg" width="420" alt="Combined Image" align="right"/> 
-   <br />
+123<br />
 </div>   
-   <br />
 <div align = center>Figure 1.raw pictures(left);lane lines marked(right)</div>   
 
 ###  
