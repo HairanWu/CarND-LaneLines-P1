@@ -741,3 +741,4 @@ HTML("""
   <p>Your browser does not support the video element.</p>
 </video>
 
+!video[ title ](test_videos_output/challenge.mp4){ size=10 }
