@@ -735,5 +735,11 @@ HTML("""
   <source src="test_videos_output/challenge.mp4">
 </video>
 
+<div align="center">
+    <iframe width="620" height="315"
+         src="test_videos_output/challenge.mp4"
+    </iframe>
+</div>
+
 
 
