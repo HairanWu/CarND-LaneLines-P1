@@ -734,11 +734,3 @@ HTML("""
 <video width="960" height="540" controls>
   <source src="test_videos_output/challenge.mp4">
 </video>
-
-
-<video controls="controls">
-  <source type="video/mp4" src="test_videos_output/challenge.mp4"></source>
-  <p>Your browser does not support the video element.</p>
-</video>
-
-!video[ title ](test_videos_output/challenge.mp4){ size=10 }
