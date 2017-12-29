@@ -24,13 +24,12 @@ When we drive, we use our eyes to decide where to go. The lines on the road that
 In this project,lane lines will be marked in form of red lines as shown in Figure1.
 <div>
 <img src="examples/laneLines_thirdPass_raw.jpg" width="420" alt="Combined Image" align="left"/> 
-<img src="examples/laneLines_thirdPass.jpg" width="420" alt="Combined Image" align="left"/>
-</div>
-
-***                                            
-###                                                  
+<img src="examples/laneLines_thirdPass.jpg" width="420" alt="Combined Image" align="right"/>
+</div>                                               
+<div align = center>   </div>   
 
 <div align = center>Figure 1.raw pictures(left);lane lines marked(right)</div>   
+
 
 ###   
 
