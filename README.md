@@ -735,11 +735,9 @@ HTML("""
   <source src="test_videos_output/challenge.mp4">
 </video>
 
-<div align="center">
-    <iframe width="620" height="315"
-         src="test_videos_output/challenge.mp4"
-    </iframe>
-</div>
 
-
+<video controls="controls">
+  <source type="video/mp4" src="test_videos_output/challenge.mp4"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
 
